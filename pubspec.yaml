@@ -48,7 +48,6 @@ dependencies:
   flutter_local_notifications: ^20.1.0
 
   #payment gateways
-
   flutter_stripe: ^12.1.1
   razorpay_flutter: ^1.4.0
   uuid: ^4.5.2
@@ -91,7 +90,6 @@ dependencies:
   #  Chrome Cast
   flutter_chrome_cast: ^1.2.7
 
-
   open_file: ^3.5.10
   screen_protector: ^1.5.1
   # Encryption & Storage
@@ -115,7 +113,15 @@ dependencies:
   slugify: ^2.0.0
   firebase_analytics: ^12.1.2
 
-
+# ==========================================================
+# PENAMBAHAN PENTING: Solusi Error DioExceptionType
+# ==========================================================
+# Ini memaksa proyek menggunakan versi dio yang stabil
+# dan tidak memiliki DioExceptionType.transformTimeout
+# yang belum didukung oleh playx_network versi lama.
+dependency_overrides:
+  dio: 5.4.2+1
+# ==========================================================
 
 dev_dependencies:
   flutter_test:
