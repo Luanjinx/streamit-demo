@@ -113,15 +113,13 @@ dependencies:
   slugify: ^2.0.0
   firebase_analytics: ^12.1.2
 
-# ==========================================================
-# PENAMBAHAN PENTING: Solusi Error DioExceptionType
-# ==========================================================
-# Ini memaksa proyek menggunakan versi dio yang stabil
-# dan tidak memiliki DioExceptionType.transformTimeout
-# yang belum didukung oleh playx_network versi lama.
-dependency_overrides:
-  dio: 5.4.2+1
-# ==========================================================
+  # ==========================================================
+  # PERUBAHAN: Update playx_network ke versi terbaru
+  # ==========================================================
+  # Jika kamu punya baris 'playx_network' di sini, ubah versinya.
+  # Jika tidak ada (karena ia dependency dari paket lain seperti nb_utils),
+  # kita akan coba paksa upgrade via terminal.
+  # ==========================================================
 
 dev_dependencies:
   flutter_test:
