@@ -37,22 +37,22 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'YOUR_API_KEY',
-    appId: isIOS ? 'YOUR_IOS_APP_ID' : 'YOUR_ANDROID_APP_ID',
-    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-    storageBucket: 'YOUR_STORAGE_BUCKET',
-    iosBundleId: 'YOUR_IOS_BUNDLE_ID'
+    apiKey: 'AIzaSyCsJLRihuO-i2cMfJeB7lLeCJ158e8yeFk',
+    appId: isIOS ? '1:988658912152:ios:953ac53ed92054967bf9ed' : '1:988658912152:android:46b188878790fb527bf9ed',
+    messagingSenderId: '123',
+    projectId: 'streamit-5ef16',
+    storageBucket: 'streamit-5ef16.firebasestorage.app',
+    iosBundleId: 'com.iqonic.ios'
   );
 
   ///Note : Values available android/app/google-services.json
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'YOUR_API_KEY',
-    appId: isIOS ? 'YOUR_IOS_APP_ID' : 'YOUR_ANDROID_APP_ID',
-    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-    storageBucket: 'YOUR_STORAGE_BUCKET',
-    iosBundleId: 'YOUR_IOS_BUNDLE_ID'
+    apiKey: 'AIzaSyCsJLRihuO-i2cMfJeB7lLeCJ158e8yeFk',
+    appId: isIOS ? '1:988658912152:ios:953ac53ed92054967bf9ed' : '1:988658912152:android:46b188878790fb527bf9ed',
+    messagingSenderId: '123',
+    projectId: 'streamit-5ef16',
+    storageBucket: 'streamit-5ef16.firebasestorage.app',
+    iosBundleId: 'com.iqonic.ios'
   );
 }

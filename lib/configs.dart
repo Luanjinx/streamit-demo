@@ -18,7 +18,7 @@ const LIVE_AUTO_SLIDER_SECOND = 5;
 const API_VERSION = 3;
 
 ///DO NOT ADD SLASH HERE
-String DOMAIN_URL = 'YOUR_DOMAIN_URL';
+String DOMAIN_URL = 'https://demo.com';
 
 bool isInReview = false;
 
@@ -59,11 +59,11 @@ const String payPalSupportedCurrency = 'USD';
 
 //ADs
 //Android
-const INTERSTITIAL_AD_ID = "ca-app-pub-3940256099942544/1033173712";
-const BANNER_AD_ID = "ca-app-pub-3 940256099942544/9214589741";
+const INTERSTITIAL_AD_ID = "";
+const BANNER_AD_ID = "";
 //IOS
-const IOS_INTERSTITIAL_AD_ID = "ca-app-pub-3940256099942544/4411468910";
-const IOS_BANNER_AD_ID = "ca-app-pub-3940256099942544/2934735716";
+const IOS_INTERSTITIAL_AD_ID = "";
+const IOS_BANNER_AD_ID = "";
 
 //region defaultCountry
 Country get defaultCountry => Country(
